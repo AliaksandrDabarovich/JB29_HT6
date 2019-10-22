@@ -16,7 +16,9 @@ public class Student {
 
 		fio = _fio;
 		groupNum = _groupNum;
-		Random rand = new Random();
+		Random rand = new Random();// грубая ошибка, нельзя создавать и инициализировать объекты как хочется
+		// где вы видели студента, который сам себе оценок негенерирует?
+		// перезразберитесь в теме Конструкторы
 		
 		int [] _marks= new int[5];
 		for (int i=0; i<_marks.length;i++) {
@@ -49,7 +51,7 @@ public class Student {
 	
 	
 	
-	
+	//equals? hashCode?
 	
 	
 
