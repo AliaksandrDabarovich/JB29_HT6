@@ -2,7 +2,7 @@ package by.ad.les09_3;
 import java.util.List;
 import java.util.ArrayList;
 
-public class StudentList {
+public class StudentList {// если в названии использовать List , то уже нужно и интерфефс List реализовывать. Group вполне подошла бы
 	private List <Student> stList;
 
 	public StudentList() {
@@ -13,7 +13,7 @@ public class StudentList {
 		stList.add(newSt);
 	}
 	
-	public List <Student> getSt(){
+	public List <Student> getSt(){// выучите правила java beans, бещ них жить тяжело
 		return stList;
 	}
 	
