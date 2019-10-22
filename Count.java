@@ -1,10 +1,13 @@
 package by.ad.les09_5;
+// организовывайте, пожалуйста, код.
+// несколько задач в одном пакете похожи на кашу и разобрать что и где не легко
+
 
 public class Count {
-private int var;
+private int var;// выравнивайте код, это важно
 
 public Count (int _var) {
-	var = _var;
+	var = _var;// используйте ссылку this в таких случаях
 }
 
 public Count () {
@@ -32,7 +35,7 @@ public String toString() {
 	return "Count [var=" + var + "]";
 }
 
-
+//equals, hashCode? - мы разбирали где и когда нужно переопределять данные методы
 
 
 }

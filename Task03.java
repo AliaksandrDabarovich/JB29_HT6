@@ -44,7 +44,7 @@ public class Task03 {
 
 	}
 
-	public static void otlich(List<Student> list2) {
+	public static void otlich(List<Student> list2) {// этот метод не может размещаться в данном классе. Пересмотрите занятия, где объясняется как отделить логику, данные и ввод-вывод
 		Student st6;
 		int[] marks;
 		boolean boo;

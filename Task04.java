@@ -37,7 +37,7 @@ public class Task04 {
 		/*
 		 * Train newMas []=new Train[5]; newMas=sortPunkt(mas);
 		 */
-		Comparator<Train> tr = new Comparator<Train>()
+		Comparator<Train> tr = new Comparator<Train>()// Александр, мы на занятиях разбирали где и как писать логику
 				{
 			public int compare(Train a, Train b){
 				
